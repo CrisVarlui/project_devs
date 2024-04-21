@@ -1,0 +1,55 @@
+*{
+    background-color: burlywood;
+    
+}
+
+h1{
+
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contenedor{
+    border: solid 2px red;
+    padding: 2em;
+    
+    
+}
+
+#contenido{
+    border: solid 2px blue;
+    width: 97%;
+}
+
+
+#contenedor, #contenido{
+    overflow: auto;
+    
+    
+}
+
+
+p{
+    
+    float: left;
+    border: 2px dashed darkgoldenrod ;
+    width: 17%;
+    height: 11.5vh;
+    margin: 10px 10px;
+    text-align: justify;
+    overflow: auto;
+    
+}
+
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(163, 120, 9);
+    float: left;
+}
+
+
+.clear{
+    clear: both;
+}
