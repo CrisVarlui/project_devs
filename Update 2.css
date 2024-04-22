@@ -1,0 +1,105 @@
+body{
+    background-image: url('../img/header.jpg');
+    background-size: contain;
+
+}
+#sec_ini {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 2400px;
+}
+
+.video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#sec_ini #cont_ini {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+#sec_ini #cont_ini img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#protoss_sect, #terran_sect, #zerg_sect {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 90%;
+    transition: transform 0.3s ease;
+
+}
+#protoss_sect{
+    background-image: url('../img/Starcraft2/Protos.jpg');
+
+}
+ #terran_sect{
+    background-image: url('../img/Starcraft2/terran.jpg');
+
+ }
+  #zerg_sect{
+    background-image: url('../img/Starcraft2/ST2Zerg.jpg');
+
+  }
+  h2 {
+    color: #ff8000;
+    text-align: center;
+}
+
+#protoss_sect:hover, #terran_sect:hover, #zerg_sect:hover {
+    transform: translateY(-5px); 
+}
+
+
+
+.butt_sec a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+
+.butt_sec {
+    font-size: larger;
+    color: #ffffff;
+    background-color: black;
+    white-space: normal;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    border-image: url('../img/box-border.png') 20; 
+    border-width: 5px; 
+    border-style: solid; 
+    padding: 20px 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 80px; 
+}
+
+.butt_sec:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    filter: brightness(110%); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
